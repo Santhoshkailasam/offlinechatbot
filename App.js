@@ -5,7 +5,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import DownloadScreen from "./src/screen/DownloadScreen";
 import ChatScreen from "./src/screen/chatbotscreen";
 import { checkModelExists } from "./src/utils/modelManager";
-import { loadModel } from "./src/utils/llamaService";
+
 
 export default function App() {
   const [loading, setLoading] = useState(true);
